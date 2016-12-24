@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03DFD9D71E0EF305004CCF8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFD9D61E0EF305004CCF8A /* AppDelegate.swift */; };
+		03DFD9D91E0EF305004CCF8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFD9D81E0EF305004CCF8A /* ViewController.swift */; };
+		03DFD9DC1E0EF305004CCF8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DFD9DA1E0EF305004CCF8A /* Main.storyboard */; };
+		03DFD9DE1E0EF305004CCF8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DFD9DD1E0EF305004CCF8A /* Assets.xcassets */; };
+		03DFD9E11E0EF305004CCF8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03DFD9DF1E0EF305004CCF8A /* LaunchScreen.storyboard */; };
+		03DFD9EA1E0EF3D5004CCF8A /* JHTempoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DFD9E91E0EF3D5004CCF8A /* JHTempoControl.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03DFD9D31E0EF305004CCF8A /* JHTempoControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHTempoControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03DFD9D61E0EF305004CCF8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03DFD9D81E0EF305004CCF8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03DFD9DB1E0EF305004CCF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03DFD9DD1E0EF305004CCF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03DFD9E01E0EF305004CCF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03DFD9E21E0EF305004CCF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03DFD9E91E0EF3D5004CCF8A /* JHTempoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JHTempoControl.swift; path = ../../../../Documents/Personal/XcodeWorkspace/SwiftWorkspace/Controls/MyControls/TempoControl/TempoControl/JHTempoControl.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03DFD9D01E0EF305004CCF8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03DFD9CA1E0EF305004CCF8A = {
+			isa = PBXGroup;
+			children = (
+				03DFD9D51E0EF305004CCF8A /* JHTempoControlDemo */,
+				03DFD9D41E0EF305004CCF8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03DFD9D41E0EF305004CCF8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03DFD9D31E0EF305004CCF8A /* JHTempoControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03DFD9D51E0EF305004CCF8A /* JHTempoControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03DFD9E81E0EF318004CCF8A /* JHTempoControl */,
+				03DFD9D61E0EF305004CCF8A /* AppDelegate.swift */,
+				03DFD9DD1E0EF305004CCF8A /* Assets.xcassets */,
+				03DFD9E21E0EF305004CCF8A /* Info.plist */,
+				03DFD9DF1E0EF305004CCF8A /* LaunchScreen.storyboard */,
+				03DFD9DA1E0EF305004CCF8A /* Main.storyboard */,
+				03DFD9D81E0EF305004CCF8A /* ViewController.swift */,
+			);
+			path = JHTempoControlDemo;
+			sourceTree = "<group>";
+		};
+		03DFD9E81E0EF318004CCF8A /* JHTempoControl */ = {
+			isa = PBXGroup;
+			children = (
+				03DFD9E91E0EF3D5004CCF8A /* JHTempoControl.swift */,
+			);
+			path = JHTempoControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03DFD9D21E0EF305004CCF8A /* JHTempoControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03DFD9E51E0EF305004CCF8A /* Build configuration list for PBXNativeTarget "JHTempoControlDemo" */;
+			buildPhases = (
+				03DFD9CF1E0EF305004CCF8A /* Sources */,
+				03DFD9D01E0EF305004CCF8A /* Frameworks */,
+				03DFD9D11E0EF305004CCF8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHTempoControlDemo;
+			productName = JHTempoControlDemo;
+			productReference = 03DFD9D31E0EF305004CCF8A /* JHTempoControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03DFD9CB1E0EF305004CCF8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JRH;
+				TargetAttributes = {
+					03DFD9D21E0EF305004CCF8A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8U44F5TMHM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 03DFD9CE1E0EF305004CCF8A /* Build configuration list for PBXProject "JHTempoControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03DFD9CA1E0EF305004CCF8A;
+			productRefGroup = 03DFD9D41E0EF305004CCF8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03DFD9D21E0EF305004CCF8A /* JHTempoControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03DFD9D11E0EF305004CCF8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFD9E11E0EF305004CCF8A /* LaunchScreen.storyboard in Resources */,
+				03DFD9DE1E0EF305004CCF8A /* Assets.xcassets in Resources */,
+				03DFD9DC1E0EF305004CCF8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03DFD9CF1E0EF305004CCF8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03DFD9D91E0EF305004CCF8A /* ViewController.swift in Sources */,
+				03DFD9EA1E0EF3D5004CCF8A /* JHTempoControl.swift in Sources */,
+				03DFD9D71E0EF305004CCF8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03DFD9DA1E0EF305004CCF8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DFD9DB1E0EF305004CCF8A /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		03DFD9DF1E0EF305004CCF8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03DFD9E01E0EF305004CCF8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03DFD9E31E0EF305004CCF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03DFD9E41E0EF305004CCF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03DFD9E61E0EF305004CCF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U44F5TMHM;
+				INFOPLIST_FILE = JHTempoControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jrh.JHTempoControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		03DFD9E71E0EF305004CCF8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8U44F5TMHM;
+				INFOPLIST_FILE = JHTempoControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jrh.JHTempoControlDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03DFD9CE1E0EF305004CCF8A /* Build configuration list for PBXProject "JHTempoControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFD9E31E0EF305004CCF8A /* Debug */,
+				03DFD9E41E0EF305004CCF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03DFD9E51E0EF305004CCF8A /* Build configuration list for PBXNativeTarget "JHTempoControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03DFD9E61E0EF305004CCF8A /* Debug */,
+				03DFD9E71E0EF305004CCF8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03DFD9CB1E0EF305004CCF8A /* Project object */;
+}
