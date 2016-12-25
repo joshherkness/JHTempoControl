@@ -49,5 +49,9 @@ class ViewController: UIViewController, JHTempoControlDelegate {
         }
         return nil
     }
+    
+    func tempoControl(_ JHTempoControl: JHTempoControl, valueMultiplierAfterInterval interval: Double) -> Double? {
+        return interval < 3 ? 1 : 10
+    }
 }
 
