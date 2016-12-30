@@ -25,7 +25,7 @@
 		03DFD9DD1E0EF305004CCF8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03DFD9E01E0EF305004CCF8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03DFD9E21E0EF305004CCF8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		03DFD9E91E0EF3D5004CCF8A /* JHTempoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JHTempoControl.swift; path = ../../../../Documents/Personal/XcodeWorkspace/SwiftWorkspace/Controls/MyControls/TempoControl/TempoControl/JHTempoControl.swift; sourceTree = "<group>"; };
+		03DFD9E91E0EF3D5004CCF8A /* JHTempoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTempoControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
